@@ -1,4 +1,4 @@
-# apigee-retry-randmomizer
+# apigee-retry-randomizer
 
 1. Install [apigeecli](https://github.com/apigee/apigeecli?tab=readme-ov-file#installation)
 2. Install [gcloud](https://cloud.google.com/sdk/docs/install)
