@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="11" name="apigee-retry-randomizer">
+  <DisplayName/>
+  <Description/>
+  <CreatedAt>1718479368794</CreatedAt>
+  <LastModifiedAt>1718479368794</LastModifiedAt>
+  <BasePaths>/apigee-retry-randomizer</BasePaths>
+  <Policies>
+    <Policy>JS-Randomizer</Policy>
+    <Policy>AM-SetTarget</Policy>
+    <Policy>SC-Priority2Callout</Policy>
+  </Policies>
+  <ProxyEndpoints>
+    <ProxyEndpoint>default</ProxyEndpoint>
+  </ProxyEndpoints>
+  <Resources>
+    <Resource>jsc://JS-Randomizer.js</Resource>
+  </Resources>
+  <TargetEndpoints>
+    <TargetEndpoint>default</TargetEndpoint>
+  </TargetEndpoints>
+</APIProxy>
